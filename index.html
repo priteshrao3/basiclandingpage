@@ -355,8 +355,9 @@
                                                     });
 
                                                     if (response.ok) {
-                                                        alert("Your message has been submitted successfully!");
+                                                        //alert("Your message has been submitted successfully!");
                                                         document.getElementById("contactForm").reset(); // Reset form fields
+                                                        window.location.href = "https://payments.cashfree.com/forms/PaySecure"; // Redirect to the payment page
                                                     } else {
                                                         const errorData = await response.json();
                                                         console.error("Server Error:", errorData);
@@ -368,6 +369,7 @@
                                                 }
                                             }
                                         </script>
+
 
                                     </div>
                                 </div>
@@ -429,7 +431,8 @@
                                 </li>
 
                             </ul>
-                            <a href="#consultant-form" class="btn-3 blink">Book Consultation Now</a>
+                            <a href="https://payments.cashfree.com/forms/PaySecure" class="btn-3 blink">Book
+                                Consultation Now</a>
                         </div>
                     </div>
                 </div>
@@ -460,7 +463,8 @@
                                 patients to live a healthy life and promoting Ayurvedic medicine. Under the supervision
                                 of Dr Chaurasia, BK Arogya & Research Pvt Ltd has set new standards in the treatment of
                                 kidney diseases.</p>
-                            <a href="#consultant-form" class="btn-3 blink">Book Consultation Now</a>
+                            <a href="https://payments.cashfree.com/forms/PaySecure" class="btn-3 blink">Book
+                                Consultation Now</a>
                         </div>
                     </div>
                 </div>
@@ -833,7 +837,7 @@
 
 
                         <div class="col-md-12 ">
-                            <a href="#appointment-form" class="btn-3 blink gif_btn">Book
+                            <a href="https://payments.cashfree.com/forms/PaySecure" class="btn-3 blink gif_btn">Book
                                 Your Consultation Now</a>
                         </div>
                     </div>
@@ -1101,7 +1105,8 @@
                 <p class="text-center">Connect with Our Doctors for a Consultation on Kidneys Health and Discover
                     How Herbal Treatments can Help.</p>
                 <div class="row mt-4 justify-content-center">
-                    <a href="#consultant-form" class="btn-3 blink gif_btn">Book Your Consultation Now!</a>
+                    <a href="https://payments.cashfree.com/forms/PaySecure" class="btn-3 blink gif_btn">Book Your
+                        Consultation Now!</a>
                 </div>
             </div>
 
